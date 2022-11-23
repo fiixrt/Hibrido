@@ -70,7 +70,7 @@ module.exports = {
             });
 
         } catch (e) {
-            interaction.reply({ content: `**Ha ocurrido un error al recargar los archivos!.**\n*Mira la consolapara mas detalle!.*` })
+            interaction.reply({ content: `**Ha ocurrido un error al recargar los archivos!.**\n*Mira la consola para mas detalle!.*` })
             console.log(e);
         }
     }

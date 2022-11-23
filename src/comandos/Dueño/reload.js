@@ -58,7 +58,7 @@ module.exports = {
             });
 
         } catch (e) {
-            message.reply({ content: `**Ha ocurrido un error al recargar los archivos!.**\n*Mira la consolapara mas detalle!.*` })
+            message.reply({ content: `**Ha ocurrido un error al recargar los archivos!.**\n*Mira la consola para mas detalle!.*` })
             console.log(e);
         }
     }
