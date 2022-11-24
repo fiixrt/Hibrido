@@ -29,6 +29,7 @@ module.exports = class extends Client{
         this.commands = new Collection();
         this.slashCommands = new Collection();
         this.slashArray = [];
+        this.color = process.env.COLOR
 
         this.utils = new BotUtils(this);
 
